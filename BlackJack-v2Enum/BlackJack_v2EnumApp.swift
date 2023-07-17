@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
+
 struct BlackJack_v2EnumApp: App {
+    @StateObject var viewModel: BlackJackViewModel = BlackJackViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BlackJackView()
+                .environmentObject(viewModel)
         }
     }
 }
