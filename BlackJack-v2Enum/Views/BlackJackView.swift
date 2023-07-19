@@ -16,17 +16,18 @@ struct BlackJackView: View {
             VStack {
                 Spacer()
                 HStack {
+                    Spacer()
                     PlayerHandView(
                         hand: viewModel.cpuHand,
                         hide2ndCard: viewModel.isCardHidden
-                    ).padding(10)
+                    ).padding(.trailing,150)
                     
                     ScoreView(
                         hand: viewModel.cpuHand,
                         hide2ndCard: viewModel.isCardHidden
                     )
-                        .padding(.leading,100)
-                        .environmentObject(viewModel)
+                    .padding(.trailing,60)
+                    .environmentObject(viewModel)
                     
                 }
                 
@@ -38,20 +39,21 @@ struct BlackJackView: View {
                 Spacer()
                 VStack {
                     HStack {
-                        
+                        Spacer()
                         PlayerHandView(
                             hand: viewModel.playerHand,
                             hide2ndCard: false
-                        ).padding(20)
-                        
+                        ).padding(.trailing,140)
+                    
+                    
                         ScoreView(
                             hand: viewModel.playerHand,
                             hide2ndCard: false
                         )
-                            .padding(.leading,100)
-                            .environmentObject(viewModel)
+                        .padding(.trailing,60)
+                        .environmentObject(viewModel)
                         
-                    }
+                    }.padding(.bottom,30)
                     
                 }
                 VStack{

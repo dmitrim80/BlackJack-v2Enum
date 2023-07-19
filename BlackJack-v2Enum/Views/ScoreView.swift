@@ -20,12 +20,24 @@ struct ScoreView: View {
         
         return ZStack{
             Image(systemName: "bubble.left")
-                .scaleEffect(5)
+                .scaleEffect(2.8)
                 .foregroundColor(.white)
-            Text("\(handValue)")
-                .foregroundColor(.white)
-                .font(.title)
-                .fontWeight(.heavy)
+            if handValue > 21 {
+                Text("Bust!")
+                    .foregroundColor(.red)
+                    .font(.title)
+                    .fontWeight(.heavy)
+            } else if handValue == 21{
+                Text("BLACKJACK!")
+                    .foregroundColor(.red)
+                    .font(.title)
+                    .fontWeight(.heavy)
+            }
+            else {
+                Text("\(handValue)")
+                    .foregroundColor(.white)
+                    .font(.title)
+            }
         }
     }
     
@@ -33,10 +45,10 @@ struct ScoreView: View {
 
 struct ScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        
-        let viewModel = BlackJackViewModel() // Create an instance of BlackJackViewModel
+        let viewModel = BlackJackViewModel()
         return ScoreView(hand: viewModel.playerHand, hide2ndCard: false)
-            .environmentObject(viewModel) // Pass the viewModel as an environment object
+            .environmentObject(viewModel)
+            .background(.green)
     }
 }
 

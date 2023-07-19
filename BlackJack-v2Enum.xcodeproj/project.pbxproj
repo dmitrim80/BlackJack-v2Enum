@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB50A8EA2A68477500767479 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8E92A68477400767479 /* ResultView.swift */; };
 		BBD02D4E2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD02D4D2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift */; };
 		BBD02D522A534F90003BB5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD02D512A534F90003BB5E5 /* Assets.xcassets */; };
 		BBD02D562A534F90003BB5E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD02D552A534F90003BB5E5 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB50A8E92A68477400767479 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		BBD02D4A2A534F8F003BB5E5 /* BlackJack-v2Enum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlackJack-v2Enum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD02D4D2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack_v2EnumApp.swift; sourceTree = "<group>"; };
 		BBD02D512A534F90003BB5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				BBD02D872A59A168003BB5E5 /* ChipView.swift */,
 				BBD02D912A5F8755003BB5E5 /* ButtonView.swift */,
 				BBD02D8B2A59A1F0003BB5E5 /* ScoreView.swift */,
+				BB50A8E92A68477400767479 /* ResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				BBD02D8C2A59A1F0003BB5E5 /* ScoreView.swift in Sources */,
 				BBD02D7F2A599A11003BB5E5 /* BlackJackViewModel.swift in Sources */,
 				BBD02D4E2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift in Sources */,
+				BB50A8EA2A68477500767479 /* ResultView.swift in Sources */,
 				BBD02D792A5351BF003BB5E5 /* BlackJackEngineModel.swift in Sources */,
 				BBD02D922A5F8755003BB5E5 /* ButtonView.swift in Sources */,
 				BBD02D862A59A14A003BB5E5 /* CardView.swift in Sources */,

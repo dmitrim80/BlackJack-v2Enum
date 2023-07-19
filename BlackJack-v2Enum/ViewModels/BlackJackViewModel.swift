@@ -86,18 +86,23 @@ class BlackJackViewModel: ObservableObject {
     
     private func hold() {
         
-       // let result = engine.getResult(playerHand, cpuHand)
-//        previousResult = .previous(result)
-//        switch result {
-//        case .player(let score):
-//            resultMessage = "You won!, Score: \(score)"
-//        case .cpu(let score):
-//            resultMessage = "CPU won!, Score: \(score)"
-//        case .tie:
-//            resultMessage = "This was a Tie!"
-//        default:
-//            break
-//        }
+        let cpuHandValue = engine.getScore(hand: cpuHand, hide2ndCard: false)
+        let playerHandValue = engine.getScore(hand: playerHand, hide2ndCard: false)
+        if playerHandValue > cpuHandValue {
+            
+        }
+        let result = engine.getResult(playerHand, cpuHand)
+        previousResult = .previous(result)
+        switch result {
+        case .player(let score):
+            resultMessage = "You won!, Score: \(score)"
+        case .cpu(let score):
+            resultMessage = "CPU won!, Score: \(score)"
+        case .tie:
+            resultMessage = "This was a Tie!"
+        default:
+            break
+        }
     }
     
     private func makeDeck() -> [BlackJackCardModel] {
