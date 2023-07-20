@@ -9,14 +9,46 @@ import SwiftUI
 
 struct ResultView: View {
     @ObservedObject var viewModel: BlackJackViewModel
+    
     var body: some View {
-        HStack{
-            Rectangle()
-            HStack{
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            }.background()
-        }.background(.black)
-        
+        let cpuScore = viewModel.cpuHandValue
+        let playerScore = viewModel.playerHandValue
+        ZStack{
+            backgroundSet
+            VStack{
+                Button(action:{ viewModel.showingResultView = false}) {Image(systemName: "x.circle")
+                        .scaleEffect(2)
+                        .frame(maxWidth: .infinity , maxHeight: .infinity, alignment: .topTrailing)
+                        .padding(20)
+                        .foregroundColor(.red)
+                }
+            }
+            VStack{
+                
+                Text("Game Results:\nCPU: \(cpuScore)\nPlayer: \(playerScore)")
+                    .frame(width: 250,height: 200, alignment: .topLeading)
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+                    .frame(maxWidth: 0, maxHeight: 750,alignment:.top )
+                
+                Text("Game History").font(.title)
+                
+                List(viewModel.gameHistory, id: \.gameNumber) { gameResult in
+                    VStack(alignment: .leading) {
+                        Text("Game \(gameResult.gameNumber)")
+                        Text("Player Hand: \(handToString(gameResult.playerHand)), Value: \(gameResult.playerHandValue)")
+                        Text("CPU Hand: \(handToString(gameResult.cpuHand)), Value: \(gameResult.cpuHandValue)")
+                    }
+                }
+            }
+            
+            
+        }
+    }
+    private func handToString(_ hand: [BlackJackCardModel]) -> String {
+        // Convert the hand array to a string representation
+        // For example, joining card values with commas.
+        return hand.map { "\($0.card.value)" }.joined(separator: ", ")
     }
 }
 
@@ -25,3 +57,4 @@ struct ResultView_Previews: PreviewProvider {
         ResultView(viewModel: BlackJackViewModel())
     }
 }
+

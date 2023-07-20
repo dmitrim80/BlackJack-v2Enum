@@ -9,7 +9,6 @@ import SwiftUI
 
 struct BlackJackView: View {
     @EnvironmentObject var viewModel: BlackJackViewModel
-    
     var body: some View {
         ZStack {
             backgroundSet
@@ -28,10 +27,7 @@ struct BlackJackView: View {
                     )
                     .padding(.trailing,60)
                     .environmentObject(viewModel)
-                    
                 }
-                
-                
                 
                 Spacer()
                 
@@ -44,8 +40,8 @@ struct BlackJackView: View {
                             hand: viewModel.playerHand,
                             hide2ndCard: false
                         ).padding(.trailing,140)
-                    
-                    
+                        
+                        
                         ScoreView(
                             hand: viewModel.playerHand,
                             hide2ndCard: false
@@ -87,9 +83,15 @@ struct BlackJackView: View {
                     ChipView()
                 }
             }
+            if viewModel.showingResultView {
+                            ResultView(viewModel: viewModel)
+                                .edgesIgnoringSafeArea(.all)
+            }
         }
     }
 }
+
+
 
 var backgroundSet: some View {
 //    RadialGradient(colors: [Color.yellow,Color.green,Color.black], center: .center, startRadius: 3, endRadius: 200)
@@ -119,3 +121,6 @@ struct BlackJackView_Previews: PreviewProvider {
         BlackJackView().environmentObject(BlackJackViewModel())
     }
 }
+
+// .fullScreenCover(isPresented: $viewModel.showingResultView) {
+//ResultView(viewModel: viewModel)}

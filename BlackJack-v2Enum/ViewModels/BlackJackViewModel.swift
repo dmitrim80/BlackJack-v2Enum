@@ -12,11 +12,12 @@ class BlackJackViewModel: ObservableObject {
     @Published var playerHand: [BlackJackCardModel] = []
     @Published var cpuHand: [BlackJackCardModel] = []
     @Published private var disableHit = false
-    @Published var showResult = false
     @Published var showPreviousResults = false
     @Published var isCardHidden = true
     @Published var playerHandValue = 0
     @Published var cpuHandValue = 0
+    @Published var showingResultView = false
+    @Published var gameHistory: [GameResult] = []
     
     let engine: BlackJackEngineModel = BlackJackEngineModel()
     private var resultMessage = ""
@@ -56,9 +57,10 @@ class BlackJackViewModel: ObservableObject {
             isCardHidden = false
             hold()
             playerHandValue = engine.getScore(hand: playerHand,hide2ndCard: isCardHidden)
-            //showResult = true
+            cpuHandValue = engine.getScore(hand: cpuHand,hide2ndCard: isCardHidden)
+            showingResultView = true
         case .didPressResults:
-            showPreviousResults = true
+            return
         case .didPressNewGame:
             startGame()
             playerHandValue = engine.getScore(hand: playerHand,hide2ndCard: isCardHidden)
@@ -103,6 +105,17 @@ class BlackJackViewModel: ObservableObject {
         default:
             break
         }
+        
+        let gameResult = GameResult(
+                gameNumber: gameHistory.count + 1, // Increment the game number for each new game
+                playerHand: playerHand,
+                cpuHand: cpuHand,
+                playerHandValue: playerHandValue,
+                cpuHandValue: cpuHandValue
+            )
+
+            gameHistory.append(gameResult)
+        }
     }
     
     private func makeDeck() -> [BlackJackCardModel] {
@@ -116,4 +129,5 @@ class BlackJackViewModel: ObservableObject {
     
     
     
-}
+    
+    
