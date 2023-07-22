@@ -19,10 +19,13 @@ class BlackJackViewModel: ObservableObject {
     @Published var showingResultView = false
     @Published var gameHistory: [GameResult] = []
     
+    @Published var cpuHandVisibility: [Bool] = [true, true]
+    @Published var playerHandVisibility: [Bool] = [true, true, true,true]
+    
+    let delayDuration: TimeInterval = 2.0
+    
     let engine: BlackJackEngineModel = BlackJackEngineModel()
     private var resultMessage = ""
-    private var hitColor = Color.black
-    private var hitOpacity = 1.0
     private var deck:[BlackJackCardModel] = []
     private var previousResult: BlackJackEngineModel.Result?
     
@@ -32,10 +35,15 @@ class BlackJackViewModel: ObservableObject {
         }
     }
     
+    
+    func updateCardVisibility(_ index: Int, isHidden: Bool) {
+        if index >= 0 && index < cpuHandVisibility.count {
+                    cpuHandVisibility[index] = isHidden
+            }
+        }
+    
     func updateHitButton() {
         disableHit = numberOfHitsRemaining == 0
-        hitColor = numberOfHitsRemaining == 0 ? .gray : .black
-        hitOpacity = numberOfHitsRemaining == 0 ? 0.7 : 1.0
     }
     
     enum Action {
@@ -80,10 +88,17 @@ class BlackJackViewModel: ObservableObject {
         playerHand.removeAll()
         cpuHand.removeAll()
         numberOfHitsRemaining = 2
+        // Add a delay before starting the game
         playerHand.append(deck.removeLast())
         playerHand.append(deck.removeLast())
         cpuHand.append(deck.removeLast())
         cpuHand.append(deck.removeLast())
+        DispatchQueue.main.asyncAfter(deadline: .now() + delayDuration) { [self] in
+            // Flip the first card in the CPU hand after the delay
+            withAnimation(.easeInOut(duration: 0.5)) {
+                cpuHandVisibility[0] = false
+            }
+        }
     }
     
     private func hold() {

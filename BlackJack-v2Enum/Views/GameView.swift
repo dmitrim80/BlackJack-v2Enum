@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct GameView: View {
+    @EnvironmentObject var viewModel: BlackJackViewModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            backgroundSet
+            VStack{
+                PlayerHandView(
+                    hand: viewModel.cpuHand,
+                    hide2ndCard: viewModel.isCardHidden
+                ).padding()
+                Spacer()
+                PlayerHandView(
+                    hand: viewModel.playerHand,
+                    hide2ndCard: false
+                ).padding()
+            }.frame(width: 300,height: 450)
+             //   .background()
+        }
     }
 }
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView()
+        GameView().environmentObject(BlackJackViewModel())
     }
 }

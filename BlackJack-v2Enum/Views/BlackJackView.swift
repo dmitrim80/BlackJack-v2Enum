@@ -19,7 +19,7 @@ struct BlackJackView: View {
                     PlayerHandView(
                         hand: viewModel.cpuHand,
                         hide2ndCard: viewModel.isCardHidden
-                    ).padding(.trailing,150)
+                    )
                     
                     ScoreView(
                         hand: viewModel.cpuHand,
