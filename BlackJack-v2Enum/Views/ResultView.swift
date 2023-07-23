@@ -9,14 +9,15 @@ import SwiftUI
 
 struct ResultView: View {
     @ObservedObject var viewModel: BlackJackViewModel
-    
+    @Binding var isShowingResultView: Bool
     var body: some View {
         let cpuScore = viewModel.cpuHandValue
         let playerScore = viewModel.playerHandValue
         ZStack{
             backgroundSet
             VStack{
-                Button(action:{ viewModel.showingResultView = false}) {Image(systemName: "x.circle")
+                Button(action:{ isShowingResultView = false }) {
+                    Image(systemName: "x.circle")
                         .scaleEffect(2)
                         .frame(maxWidth: .infinity , maxHeight: .infinity, alignment: .topTrailing)
                         .padding(20)
@@ -54,7 +55,7 @@ struct ResultView: View {
 
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
-        ResultView(viewModel: BlackJackViewModel())
+        ResultView(viewModel: BlackJackViewModel(), isShowingResultView: .constant(true))
     }
 }
 

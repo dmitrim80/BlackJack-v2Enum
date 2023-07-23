@@ -15,7 +15,7 @@ struct GameView: View {
             VStack{
                 PlayerHandView(
                     hand: viewModel.cpuHand,
-                    hide2ndCard: viewModel.isCardHidden
+                    hide2ndCard: true
                 ).padding()
                 Spacer()
                 PlayerHandView(

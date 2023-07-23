@@ -11,13 +11,14 @@ import Foundation
 class BlackJackViewModel: ObservableObject {
     @Published var playerHand: [BlackJackCardModel] = []
     @Published var cpuHand: [BlackJackCardModel] = []
-    @Published private var disableHit = false
+    @Published var disableHit = false
     @Published var showPreviousResults = false
     @Published var isCardHidden = true
     @Published var playerHandValue = 0
     @Published var cpuHandValue = 0
     @Published var showingResultView = false
     @Published var gameHistory: [GameResult] = []
+    
     
     @Published var cpuHandVisibility: [Bool] = [true, true]
     @Published var playerHandVisibility: [Bool] = [true, true, true,true]

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BlackJackView: View {
     @EnvironmentObject var viewModel: BlackJackViewModel
+    @State private var showingResultView = false
     var body: some View {
         ZStack {
             backgroundSet
@@ -57,7 +58,10 @@ struct BlackJackView: View {
                     HStack(alignment:.bottom, spacing: 20){
                         ButtonView(action: {
                             viewModel.send(action: .didPressHit)})
-                        ButtonView(action: {viewModel.send(action: .didPressHold)})
+                        ButtonView(action: {
+                            viewModel.send(action:.didPressHold)
+                            showingResultView = true
+                        })
                         ButtonView(action: {viewModel.send(action: .didPressNewGame)})
                     }
                     HStack(spacing: 50) {
@@ -83,10 +87,8 @@ struct BlackJackView: View {
                     ChipView()
                 }
             }
-            if viewModel.showingResultView {
-                            ResultView(viewModel: viewModel)
-                                .edgesIgnoringSafeArea(.all)
-            }
+        }.sheet(isPresented: $showingResultView) {
+            ResultView(viewModel: viewModel, isShowingResultView: $showingResultView)
         }
     }
 }
@@ -122,5 +124,3 @@ struct BlackJackView_Previews: PreviewProvider {
     }
 }
 
-// .fullScreenCover(isPresented: $viewModel.showingResultView) {
-//ResultView(viewModel: viewModel)}
