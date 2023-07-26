@@ -92,7 +92,6 @@ struct BlackJackView: View {
 }
 
 
-
 var backgroundSet: some View {
 //    RadialGradient(colors: [Color.yellow,Color.green,Color.black], center: .center, startRadius: 3, endRadius: 200)
 //        .opacity(0.7)
