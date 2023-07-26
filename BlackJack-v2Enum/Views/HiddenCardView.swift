@@ -21,7 +21,7 @@ struct HiddenCardView: View {
                 .scaleEffect(4.5)
                 .padding(5)
                 .shadow(radius: 0.5)
-                .shadow(color: .black, radius: 10, x: 5, y: 5)
+                .shadow(color: .black, radius: 5, x: 5, y: 5)
         }
     }
 }

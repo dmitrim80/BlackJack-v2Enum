@@ -36,6 +36,9 @@ class BlackJackViewModel: ObservableObject {
         }
     }
     
+    func performClickAction() {
+        
+        }
     
     func updateCardVisibility(_ index: Int, isHidden: Bool) {
         if index >= 0 && index < cpuHandVisibility.count {
@@ -89,14 +92,13 @@ class BlackJackViewModel: ObservableObject {
         playerHand.removeAll()
         cpuHand.removeAll()
         numberOfHitsRemaining = 2
-        // Add a delay before starting the game
         playerHand.append(deck.removeLast())
         playerHand.append(deck.removeLast())
         cpuHand.append(deck.removeLast())
         cpuHand.append(deck.removeLast())
         DispatchQueue.main.asyncAfter(deadline: .now() + delayDuration) { [self] in
             // Flip the first card in the CPU hand after the delay
-            withAnimation(.easeInOut(duration: 0.5)) {
+            withAnimation(.easeInOut(duration: 2)) {
                 cpuHandVisibility[0] = false
             }
         }

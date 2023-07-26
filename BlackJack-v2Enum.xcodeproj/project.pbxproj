@@ -11,6 +11,7 @@
 		BB50A8EC2A69720500767479 /* PlaceYourBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8EB2A69720500767479 /* PlaceYourBetView.swift */; };
 		BB50A8EE2A69724700767479 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8ED2A69724700767479 /* GameView.swift */; };
 		BB50A8F02A6998F400767479 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8EF2A6998F400767479 /* GameResult.swift */; };
+		BB50A9292A6D89A000767479 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A9282A6D89A000767479 /* DeckView.swift */; };
 		BBD02D4E2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD02D4D2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift */; };
 		BBD02D522A534F90003BB5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD02D512A534F90003BB5E5 /* Assets.xcassets */; };
 		BBD02D562A534F90003BB5E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD02D552A534F90003BB5E5 /* Preview Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		BB50A8EB2A69720500767479 /* PlaceYourBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceYourBetView.swift; sourceTree = "<group>"; };
 		BB50A8ED2A69724700767479 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		BB50A8EF2A6998F400767479 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		BB50A9282A6D89A000767479 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
 		BBD02D4A2A534F8F003BB5E5 /* BlackJack-v2Enum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlackJack-v2Enum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD02D4D2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack_v2EnumApp.swift; sourceTree = "<group>"; };
 		BBD02D512A534F90003BB5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,14 +163,15 @@
 			isa = PBXGroup;
 			children = (
 				BBD02D7C2A58DEB8003BB5E5 /* BlackJackView.swift */,
-				BBD02D892A59A19F003BB5E5 /* HiddenCardView.swift */,
-				BBD02D8D2A59A20F003BB5E5 /* PlayerHandView.swift */,
-				BB50A8EB2A69720500767479 /* PlaceYourBetView.swift */,
 				BB50A8ED2A69724700767479 /* GameView.swift */,
+				BBD02D8D2A59A20F003BB5E5 /* PlayerHandView.swift */,
+				BBD02D892A59A19F003BB5E5 /* HiddenCardView.swift */,
 				BBD02D852A59A14A003BB5E5 /* CardView.swift */,
 				BBD02D872A59A168003BB5E5 /* ChipView.swift */,
 				BBD02D912A5F8755003BB5E5 /* ButtonView.swift */,
+				BB50A8EB2A69720500767479 /* PlaceYourBetView.swift */,
 				BBD02D8B2A59A1F0003BB5E5 /* ScoreView.swift */,
+				BB50A9282A6D89A000767479 /* DeckView.swift */,
 				BB50A8E92A68477400767479 /* ResultView.swift */,
 			);
 			path = Views;
@@ -333,6 +336,7 @@
 				BBD02D792A5351BF003BB5E5 /* BlackJackEngineModel.swift in Sources */,
 				BBD02D922A5F8755003BB5E5 /* ButtonView.swift in Sources */,
 				BBD02D862A59A14A003BB5E5 /* CardView.swift in Sources */,
+				BB50A9292A6D89A000767479 /* DeckView.swift in Sources */,
 				BBD02D812A599B2A003BB5E5 /* BlackJackCardModel.swift in Sources */,
 				BBD02D8E2A59A20F003BB5E5 /* PlayerHandView.swift in Sources */,
 				BBD02D882A59A168003BB5E5 /* ChipView.swift in Sources */,

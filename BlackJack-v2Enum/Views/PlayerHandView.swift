@@ -20,11 +20,11 @@ struct PlayerHandView: View {
                 if hide2ndCard && index == 1 {
                     if viewModel.cpuHandVisibility[1] {
                         HiddenCardView()
-                            .offset(x: CGFloat(index * 120) - 50, y: -20)
+                            .offset(x: CGFloat(index * 40) - 50, y: 0)
                             .scaleEffect(1.2)
                             .opacity(1)
                             .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
-                            .animation(.easeInOut(duration: 0.5))
+                            .animation(.easeInOut(duration: 2))
                     } else {
                         // Otherwise, show the second card with CardView
                         CardView(width: 100, height: 150, card: hand[index])
@@ -32,7 +32,7 @@ struct PlayerHandView: View {
                             .scaleEffect(1.2)
                             .opacity(1)
                             .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
-                            .animation(.easeInOut(duration: 0.5))
+                            .animation(.easeInOut(duration: 2))
                     }
                 } else {
                     // Show the other cards with CardView
@@ -41,14 +41,14 @@ struct PlayerHandView: View {
                         .scaleEffect(1.2)
                         .opacity(1)
                         .rotation3DEffect(.degrees(1), axis: (x: 0, y: 1, z: 0))
-                        .animation(.easeInOut(duration: 0.5))
+                        .animation(.easeInOut(duration: 2))
                 }
             }
         }
         .onAppear {
             // Show first card hidden for 2 seconds, then flip it
             DispatchQueue.main.asyncAfter(deadline: .now() + viewModel.delayDuration) {
-                withAnimation(.easeInOut(duration: 0.5)) {
+                withAnimation(.easeInOut(duration: 2)) {
                     viewModel.updateCardVisibility(0, isHidden: false)
                 }
             }
@@ -56,12 +56,14 @@ struct PlayerHandView: View {
             // Show second card hidden for 2 seconds, then flip it (only if hide2ndCard is false)
             if !hide2ndCard {
                 DispatchQueue.main.asyncAfter(deadline: .now() + viewModel.delayDuration * 2) {
-                    withAnimation(.easeInOut(duration: 0.5)) {
+                    withAnimation(.easeInOut(duration: 2)) {
                         viewModel.updateCardVisibility(1, isHidden: false)
                     }
                 }
+                
             }
         }
+        
     }
 }
 

@@ -11,7 +11,7 @@ struct CardView: View {
     let width: CGFloat
     let height: CGFloat
     let card: BlackJackCardModel
-    @State private var isFlipped = false
+    @State private var isFlipped = true
     
     var body: some View {
         ZStack {
@@ -61,11 +61,11 @@ struct CardView: View {
                 }
             }
         }.frame(width: width, height: height)
-            .onTapGesture {
-                withAnimation(.easeInOut(duration: 0.5)) {
+            .onAppear {
+                withAnimation(.easeInOut(duration: 2)) {
                     isFlipped.toggle()
                 }
-            }.rotation3DEffect(.degrees(isFlipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+            }.rotation3DEffect(.degrees(isFlipped ? 90 : 0), axis: (x: 0, y: 1, z: 0))
             .animation(.default)
     }
 }
@@ -73,8 +73,7 @@ struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(BlackJackCardModel.Card.allCases, id: \.self) { card in
             ZStack {
-                Color.green
-                    .ignoresSafeArea()
+                backgroundSet
                 CardView(width: 100, height: 150, card: BlackJackCardModel(card: card))
                     .frame(width: 100, height: 150)
                     .padding()

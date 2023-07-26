@@ -17,21 +17,21 @@ struct ScoreView: View {
     }
     
     var body: some View {
-        
-        return ZStack{
+        ZStack{
             Image(systemName: "bubble.left")
                 .scaleEffect(2.8)
                 .foregroundColor(.white)
+                .frame(width:170, height: 50)
+            
             if handValue > 21 {
                 Text("Bust!")
-                    .foregroundColor(.red)
+                    .foregroundColor(.white)
                     .font(.title)
-                    .fontWeight(.heavy)
-            } else if handValue == 21{
+            }
+            else if handValue == 21 {
                 Text("BLACKJACK!")
-                    .foregroundColor(.red)
+                    .foregroundColor(.white)
                     .font(.title)
-                    .fontWeight(.heavy)
             }
             else {
                 Text("\(handValue)")

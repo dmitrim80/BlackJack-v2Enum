@@ -26,7 +26,6 @@ struct BlackJackView: View {
                         hand: viewModel.cpuHand,
                         hide2ndCard: viewModel.isCardHidden
                     )
-                    .padding(.trailing,60)
                     .environmentObject(viewModel)
                 }
                 
@@ -40,14 +39,13 @@ struct BlackJackView: View {
                         PlayerHandView(
                             hand: viewModel.playerHand,
                             hide2ndCard: false
-                        ).padding(.trailing,140)
+                        )
                         
                         
                         ScoreView(
                             hand: viewModel.playerHand,
                             hide2ndCard: false
                         )
-                        .padding(.trailing,60)
                         .environmentObject(viewModel)
                         
                     }.padding(.bottom,30)
