@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96F3612D-4CE8-4742-89E9-C078A650186D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E652A17-25CB-4C00-87BA-3694F7954E6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7E652A17-25CB-4C00-87BA-3694F7954E6D - efef6afeaedcb843"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "7E652A17-25CB-4C00-87BA-3694F7954E6D - efef6afeaedcb843"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E2F4F68-6D6E-4BAE-BD8F-DCE83FD5D224"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E2F4F68-6D6E-4BAE-BD8F-DCE83FD5D224 - efef6afeaedcb824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "1E2F4F68-6D6E-4BAE-BD8F-DCE83FD5D224 - efef6afeaedcb824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA9545E0-1A4B-43D3-B444-AD7C72A5A04F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CA9545E0-1A4B-43D3-B444-AD7C72A5A04F - efef6afeaedcb843"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "CA9545E0-1A4B-43D3-B444-AD7C72A5A04F - efef6afeaedcb843"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE8BC4F2-D062-4D53-80BC-11AE3746EF5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE8BC4F2-D062-4D53-80BC-11AE3746EF5C - efef6afeaedcb8e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "AE8BC4F2-D062-4D53-80BC-11AE3746EF5C - efef6afeaedcb8e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "AE8BC4F2-D062-4D53-80BC-11AE3746EF5C - f675fb0383e29f8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "AE8BC4F2-D062-4D53-80BC-11AE3746EF5C - f675fb0383e29eea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "3848">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9160229E-C03D-4FD9-99B2-C5BC4070B1CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9160229E-C03D-4FD9-99B2-C5BC4070B1CA - efef6afeaedcb96a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+               <Location
+                  uuid = "9160229E-C03D-4FD9-99B2-C5BC4070B1CA - efef6afeaedcb96a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+               <Location
+                  uuid = "9160229E-C03D-4FD9-99B2-C5BC4070B1CA - f675fb0383e29e09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+               <Location
+                  uuid = "9160229E-C03D-4FD9-99B2-C5BC4070B1CA - f675fb0383e29176"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4828">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA47C70D-8434-4385-A8CC-BC638139E250"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CA47C70D-8434-4385-A8CC-BC638139E250 - efef6afeaedcb9ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+               <Location
+                  uuid = "CA47C70D-8434-4385-A8CC-BC638139E250 - efef6afeaedcb9ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+               <Location
+                  uuid = "CA47C70D-8434-4385-A8CC-BC638139E250 - f675fb0383e29e95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+               <Location
+                  uuid = "CA47C70D-8434-4385-A8CC-BC638139E250 - f675fb0383e291f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "4900">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3B5C69A-9A8F-403B-BD73-41569A51D063"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3B5C69A-9A8F-403B-BD73-41569A51D063 - efef6afeaedcb615"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1364">
+               </Location>
+               <Location
+                  uuid = "F3B5C69A-9A8F-403B-BD73-41569A51D063 - 2edb59fe720b3439"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BlackJack_v2Enum.BlackJackCardModel) -&gt; () in BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "F3B5C69A-9A8F-403B-BD73-41569A51D063 - efef6afeaedcb615"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "F3B5C69A-9A8F-403B-BD73-41569A51D063 - f675fb0383e291bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1732">
+               </Location>
+               <Location
+                  uuid = "F3B5C69A-9A8F-403B-BD73-41569A51D063 - f675fb0383e29019"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "4984">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A62D100E-F5F1-401A-8AE4-63882A373E82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A62D100E-F5F1-401A-8AE4-63882A373E82 - efef6afeaedcb8c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "A62D100E-F5F1-401A-8AE4-63882A373E82 - f675fb0383e29e6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "A62D100E-F5F1-401A-8AE4-63882A373E82 - f675fb0383e29ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "3992">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59AD9BF2-677E-4E5B-8A2C-2C6389DD919E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "59AD9BF2-677E-4E5B-8A2C-2C6389DD919E - efef6afeaedcb9b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "59AD9BF2-677E-4E5B-8A2C-2C6389DD919E - f675fb0383e29157"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1672">
+               </Location>
+               <Location
+                  uuid = "59AD9BF2-677E-4E5B-8A2C-2C6389DD919E - f675fb0383e291bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "4924">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B88ED466-8719-41D2-8C59-B98BE1AB0FE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getScore(hand:hide2ndCard:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B88ED466-8719-41D2-8C59-B98BE1AB0FE0 - efef6afeaedcb991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "B88ED466-8719-41D2-8C59-B98BE1AB0FE0 - f675fb0383e29130"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1676">
+               </Location>
+               <Location
+                  uuid = "B88ED466-8719-41D2-8C59-B98BE1AB0FE0 - f675fb0383e2919d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlackJack_v2Enum.BlackJackEngineModel.getScore(hand: Swift.Array&lt;BlackJack_v2Enum.BlackJackCardModel&gt;, hide2ndCard: Swift.Bool) -&gt; Swift.Int"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "4928">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41D742B8-4185-423A-A385-432A95BCB68E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/ViewModels/BlackJackViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "send(action:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DBB0CE9-B1EB-47B1-AE3D-EDF7AEAA86B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Views/BlackJackView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3DBB0CE9-B1EB-47B1-AE3D-EDF7AEAA86B4 - 2b359afd11c0aae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of BlackJack_v2Enum.tableLable : some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of BlackJack_v2Enum.backgroundSet : some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of BlackJack_v2Enum.tableLable : some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView)&gt;&gt;)&gt;&gt;)&gt; in BlackJack_v2Enum.BlackJackView.body.getter : some"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Views/BlackJackView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "3DBB0CE9-B1EB-47B1-AE3D-EDF7AEAA86B4 - 2b359afd11c0aae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of BlackJack_v2Enum.tableLable : some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of BlackJack_v2Enum.backgroundSet : some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of BlackJack_v2Enum.tableLable : some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView)&gt;&gt;)&gt;&gt;)&gt; in BlackJack_v2Enum.BlackJackView.body.getter : some"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Views/BlackJackView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "3DBB0CE9-B1EB-47B1-AE3D-EDF7AEAA86B4 - 151d32f7a11ec134"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of BlackJack_v2Enum.tableLable : some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of BlackJack_v2Enum.backgroundSet : some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of BlackJack_v2Enum.tableLable : some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.VStack&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView, BlackJack_v2Enum.ChipView)&gt;&gt;)&gt;&gt;)&gt; in BlackJack_v2Enum.BlackJackView.body.getter : some"
+                  moduleName = "BlackJack-v2Enum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrimorozov/Desktop/Xcode%20project/BlackJack-v2Enum/BlackJack-v2Enum/Views/BlackJackView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "756DB8FB-727E-4034-BA5F-88DAA9659DCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Views/ResultView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5870F50-DAFA-4709-AB01-A1D995AF3EAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlackJack-v2Enum/Views/ScoreView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

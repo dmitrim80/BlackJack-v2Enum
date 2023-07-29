@@ -13,6 +13,7 @@ struct BlackJackView: View {
     var body: some View {
         ZStack {
             backgroundSet
+            tableLable
             VStack {
                 Spacer()
                 HStack {
@@ -20,7 +21,7 @@ struct BlackJackView: View {
                     PlayerHandView(
                         hand: viewModel.cpuHand,
                         hide2ndCard: viewModel.isCardHidden
-                    )
+                    ).scaleEffect(0.8)
                     
                     ScoreView(
                         hand: viewModel.cpuHand,
@@ -31,7 +32,7 @@ struct BlackJackView: View {
                 
                 Spacer()
                 
-                tableLable
+                
                 Spacer()
                 VStack {
                     HStack {
@@ -39,7 +40,7 @@ struct BlackJackView: View {
                         PlayerHandView(
                             hand: viewModel.playerHand,
                             hide2ndCard: false
-                        )
+                        ).scaleEffect(0.8)
                         
                         
                         ScoreView(
@@ -58,7 +59,8 @@ struct BlackJackView: View {
                             viewModel.send(action: .didPressHit)})
                         ButtonView(action: {
                             viewModel.send(action:.didPressHold)
-                            showingResultView = true
+                            showingResultView = false
+                            viewModel.numberOfHitsRemaining = 0
                         })
                         ButtonView(action: {viewModel.send(action: .didPressNewGame)})
                     }
@@ -86,8 +88,7 @@ struct BlackJackView: View {
                 }
             }
         }.sheet(isPresented: $showingResultView) {
-            ResultView(viewModel: viewModel, isShowingResultView: $showingResultView)
-        }
+            ResultView(viewModel: viewModel, isShowingResultView: $showingResultView) }
     }
 }
 
@@ -100,19 +101,22 @@ var backgroundSet: some View {
         .ignoresSafeArea()
 }
 
+
 var tableLable: some View {
-    VStack{
-        let locationTableText:String = "LONDON"
-        Text(locationTableText)
-            .foregroundColor(.yellow)
-            .font(.largeTitle)
-        Text("BLACKJACK Pays 3 to 2")
-            .bold()
-            .foregroundColor(.white)
-            .font(.title)
-        Text("Dealer must stand on soft 17")
-            .foregroundColor(.white)
-            .font(.title2)
+   ZStack{
+       VStack{
+           let locationTableText:String = "LONDON"
+           Text(locationTableText)
+               .foregroundColor(.yellow)
+               .font(.largeTitle)
+           Text("BLACKJACK Pays 3 to 2")
+               .bold()
+               .foregroundColor(.white)
+               .font(.title)
+           Text("Dealer must stand on soft 17")
+               .foregroundColor(.white)
+               .font(.title2)
+       }.offset(y:-100)
     }
 }
 

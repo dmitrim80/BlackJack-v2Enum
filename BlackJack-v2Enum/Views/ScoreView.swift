@@ -16,6 +16,7 @@ struct ScoreView: View {
         viewModel.engine.getScore(hand: hand, hide2ndCard: hide2ndCard)
     }
     
+    
     var body: some View {
         ZStack{
             Image(systemName: "bubble.left")
@@ -25,13 +26,22 @@ struct ScoreView: View {
             
             if handValue > 21 {
                 Text("Bust!")
-                    .foregroundColor(.white)
+                    .foregroundColor(.red)
                     .font(.title)
+                    .onAppear {
+                        viewModel.numberOfHitsRemaining = 0 // Disable the "Hit" button when handValue is greater than 21
+                        viewModel.isCardHidden = false
+                    }
+                
             }
             else if handValue == 21 {
                 Text("BLACKJACK!")
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("BJGold"))
                     .font(.title)
+                    .onAppear {
+                        viewModel.numberOfHitsRemaining = 0 // Disable the "Hit" button when handValue is greater than 21
+                        viewModel.isCardHidden = false
+                    }
             }
             else {
                 Text("\(handValue)")
@@ -40,7 +50,6 @@ struct ScoreView: View {
             }
         }
     }
-    
 }
 
 struct ScoreView_Previews: PreviewProvider {

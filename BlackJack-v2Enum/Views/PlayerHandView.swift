@@ -12,28 +12,49 @@ struct PlayerHandView: View {
     let hand: [BlackJackCardModel]
     let hide2ndCard: Bool
     
+    var cpuCard1: Int{
+        viewModel.engine.getScore(hand: hand, hide2ndCard: hide2ndCard)
+    }
     var body: some View {
         ZStack {
             // Iterate through the hand to display the cards
             ForEach(0..<hand.count, id: \.self) { index in
                 // If it's the second card and hide2ndCard is true, show it as Hidden
                 if hide2ndCard && index == 1 {
-                    if viewModel.cpuHandVisibility[1] {
-                        HiddenCardView()
-                            .offset(x: CGFloat(index * 40) - 50, y: 0)
-                            .scaleEffect(1.2)
-                            .opacity(1)
-                            .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
-                            .animation(.easeInOut(duration: 2))
-                    } else {
-                        // Otherwise, show the second card with CardView
-                        CardView(width: 100, height: 150, card: hand[index])
-                            .offset(x: CGFloat(index * 30) - 50, y: 0)
-                            .scaleEffect(1.2)
-                            .opacity(1)
-                            .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
-                            .animation(.easeInOut(duration: 2))
-                    }
+                        if viewModel.cpuHand[0].card.value == 10 || viewModel.cpuHand[0].card.value == 1{
+                            HiddenCardView()
+                                
+                                .offset(x: CGFloat(index * 40) - 50, y: -20)
+                                .scaleEffect(1.2)
+                                .opacity(1)
+                                .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
+                                .onAppear {
+                                    withAnimation(.easeInOut(duration: 2)) {
+                                        
+                                    }}
+                        } else if viewModel.cpuHandVisibility[1] {
+                            HiddenCardView()
+                                .offset(x: CGFloat(index * 40) - 50, y: 0)
+                                .scaleEffect(1.2)
+                                .opacity(1)
+                                .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
+                                .onAppear {
+                                    withAnimation(.easeInOut(duration: 2)) {
+                                        // Add any changes here that you want to animate
+                                    }}}
+                    else {
+                            // Otherwise, show the second card with CardView
+                            CardView(width: 100, height: 150, card: hand[index])
+                                .offset(x: CGFloat(index * 30) - 50, y: 0)
+                                .scaleEffect(1.2)
+                                .opacity(1)
+                                .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                                .onAppear {
+                                    withAnimation(.easeInOut(duration: 2)) {
+                                        // Add any changes here that you want to animate
+                                    }}
+                        }
+
                 } else {
                     // Show the other cards with CardView
                     CardView(width: 100, height: 150, card: hand[index])
@@ -41,7 +62,10 @@ struct PlayerHandView: View {
                         .scaleEffect(1.2)
                         .opacity(1)
                         .rotation3DEffect(.degrees(1), axis: (x: 0, y: 1, z: 0))
-                        .animation(.easeInOut(duration: 2))
+                        .onAppear {
+                            withAnimation(.easeInOut(duration: 2)) {
+                                // Add any changes here that you want to animate
+                            }}
                 }
             }
         }

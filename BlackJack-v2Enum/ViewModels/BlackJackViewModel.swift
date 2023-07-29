@@ -30,7 +30,7 @@ class BlackJackViewModel: ObservableObject {
     private var deck:[BlackJackCardModel] = []
     private var previousResult: BlackJackEngineModel.Result?
     
-    var numberOfHitsRemaining = 2 {
+    var numberOfHitsRemaining = 10 {
         didSet {
             updateHitButton()
         }
@@ -63,7 +63,7 @@ class BlackJackViewModel: ObservableObject {
                 playerHand.append(deck.removeLast())
                 numberOfHitsRemaining -= 1
                 playerHandValue = engine.getScore(hand: playerHand,hide2ndCard: isCardHidden)
-            
+                
             }
         case .didPressHold:
             isCardHidden = false
@@ -91,7 +91,7 @@ class BlackJackViewModel: ObservableObject {
         deck.shuffle()
         playerHand.removeAll()
         cpuHand.removeAll()
-        numberOfHitsRemaining = 2
+        numberOfHitsRemaining = 10
         playerHand.append(deck.removeLast())
         playerHand.append(deck.removeLast())
         cpuHand.append(deck.removeLast())
