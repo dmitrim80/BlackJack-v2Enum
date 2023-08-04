@@ -12,7 +12,6 @@ struct BlackJackEngineModel{
         case player(score: Int)
         case cpu(score: Int)
         case tie
-        
         case previous(Result)
     }
     

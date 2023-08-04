@@ -11,6 +11,9 @@ struct ScoreView: View {
     @EnvironmentObject var viewModel: BlackJackViewModel
     let hand: [BlackJackCardModel]
     let hide2ndCard: Bool
+    @State private var playerWins = false
+    @State private var cpuWins = false
+    @State private var noWinner = false
     
     var handValue: Int {
         viewModel.engine.getScore(hand: hand, hide2ndCard: hide2ndCard)
@@ -25,20 +28,37 @@ struct ScoreView: View {
                 .frame(width:170, height: 50)
             
             if handValue > 21 {
-                Text("Bust!")
-                    .foregroundColor(.red)
-                    .font(.title)
+                VStack {
+                    
+                    Text("Bust!")
+                        .foregroundColor(.red)
+                        .font(.title)
+                }
                     .onAppear {
+                        if viewModel.cpuHandValue > 21 {
+                            playerWins = true
+                        } else if viewModel.playerHandValue > 21 {
+                            cpuWins = true
+                        }
                         viewModel.numberOfHitsRemaining = 0 // Disable the "Hit" button when handValue is greater than 21
                         viewModel.isCardHidden = false
                     }
                 
             }
             else if handValue == 21 {
-                Text("BLACKJACK!")
-                    .foregroundColor(Color("BJGold"))
-                    .font(.title)
+                VStack {
+                    Text("BLACKJACK!")
+                        .foregroundColor(Color("BJGold"))
+                        .font(.title)
+                }
                     .onAppear {
+                        if viewModel.cpuHandValue == 21 && viewModel.playerHandValue < 21 {
+                            viewModel.cpuWin = true
+                        } else if viewModel.playerHandValue == 21 && viewModel.cpuHandValue < 21 {
+                            viewModel.playerWin = true
+                        }else if viewModel.playerHandValue == 21 && viewModel.cpuHandValue == 21 {
+                            viewModel.noWinners = true
+                        }
                         viewModel.numberOfHitsRemaining = 0 // Disable the "Hit" button when handValue is greater than 21
                         viewModel.isCardHidden = false
                     }
@@ -49,6 +69,15 @@ struct ScoreView: View {
                     .font(.title)
             }
         }
+        .onAppear {
+                    if playerWins {
+                        viewModel.playerWin = true
+                    } else if cpuWins {
+                        viewModel.cpuWin = true
+                    } else if noWinner {
+                        viewModel.noWinners = true
+                    }
+                }
     }
 }
 

@@ -14,8 +14,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -62,8 +62,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -110,8 +110,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -158,8 +158,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -236,8 +236,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -314,8 +314,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -392,8 +392,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -485,8 +485,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -548,8 +548,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -611,8 +611,8 @@
             filePath = "BlackJack-v2Enum/Models/BlackJackEngineModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getScore(hand:hide2ndCard:)"
             landmarkType = "7">
             <Locations>
@@ -674,8 +674,8 @@
             filePath = "BlackJack-v2Enum/ViewModels/BlackJackViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "send(action:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -690,8 +690,8 @@
             filePath = "BlackJack-v2Enum/Views/BlackJackView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -769,8 +769,8 @@
             filePath = "BlackJack-v2Enum/Views/ScoreView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>

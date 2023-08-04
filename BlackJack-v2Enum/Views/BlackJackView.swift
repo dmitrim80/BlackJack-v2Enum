@@ -14,6 +14,7 @@ struct BlackJackView: View {
         ZStack {
             backgroundSet
             tableLable
+            
             VStack {
                 Spacer()
                 HStack {
@@ -87,6 +88,34 @@ struct BlackJackView: View {
                     ChipView()
                 }
             }
+            Text("CPU Wins!\n CPU:\(viewModel.cpuHandValue)\n Player:\(viewModel.playerHandValue)")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(.red)
+                .frame(width: 200, height: 120)
+                .background(.yellow)
+                .opacity($viewModel.cpuWin.wrappedValue ? 1 : 0)
+                .offset(y:-80)
+            Text("Player Wins!\n CPU:\(viewModel.cpuHandValue)\n Player:\(viewModel.playerHandValue)")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(.green)
+                .frame(width: 200, height: 120)
+                .background(.yellow)
+                .opacity($viewModel.playerWin.wrappedValue ? 1 : 0)
+                .offset(y:-80)
+            Text("Push!\n CPU:\(viewModel.cpuHandValue)\n Player:\(viewModel.playerHandValue)")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(.black)
+                .frame(width: 200, height: 120)
+                .background(.yellow)
+                .opacity($viewModel.noWinners.wrappedValue ? 1 : 0)
+                .offset(y:-80)
+            
+            
+            
+            
         }.sheet(isPresented: $showingResultView) {
             ResultView(viewModel: viewModel, isShowingResultView: $showingResultView) }
     }

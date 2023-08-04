@@ -18,7 +18,9 @@ class BlackJackViewModel: ObservableObject {
     @Published var cpuHandValue = 0
     @Published var showingResultView = false
     @Published var gameHistory: [GameResult] = []
-    
+    @Published var cpuWin: Bool = false
+    @Published var playerWin: Bool = false
+    @Published var noWinners: Bool = false
     
     @Published var cpuHandVisibility: [Bool] = [true, true]
     @Published var playerHandVisibility: [Bool] = [true, true, true,true]
@@ -63,14 +65,36 @@ class BlackJackViewModel: ObservableObject {
                 playerHand.append(deck.removeLast())
                 numberOfHitsRemaining -= 1
                 playerHandValue = engine.getScore(hand: playerHand,hide2ndCard: isCardHidden)
-                
+                if playerHandValue == 21 {
+                    playerWin = true
+                }
             }
         case .didPressHold:
             isCardHidden = false
             hold()
             playerHandValue = engine.getScore(hand: playerHand,hide2ndCard: isCardHidden)
             cpuHandValue = engine.getScore(hand: cpuHand,hide2ndCard: isCardHidden)
-            showingResultView = true
+            
+            while cpuHandValue <= playerHandValue && cpuHandValue < 17 {
+                cpuHand.append(deck.removeLast())
+                playerHandValue = engine.getScore(hand: playerHand,hide2ndCard: isCardHidden)
+                cpuHandValue = engine.getScore(hand: cpuHand,hide2ndCard: isCardHidden)
+            }
+            if playerHandValue > cpuHandValue && playerHandValue <= 21 || playerHandValue <= 21 && cpuHandValue > 21 {
+                playerWin = true
+                cpuWin = false
+                noWinners = false
+            } else if cpuHandValue > playerHandValue && cpuHandValue <= 21 || cpuHandValue <= 21 && playerHandValue > 21  {
+                cpuWin = true
+                playerWin = false
+                noWinners = false
+            } else {
+                cpuWin = false
+                playerWin = false
+                noWinners = true
+            }
+            
+           // showingResultView = true
         case .didPressResults:
             return
         case .didPressNewGame:
@@ -84,6 +108,9 @@ class BlackJackViewModel: ObservableObject {
     }
     
     private func startGame() {
+        playerWin = false
+        cpuWin = false
+        noWinners = false
         playerHandValue = 0
         cpuHandValue = 0
         isCardHidden = true
