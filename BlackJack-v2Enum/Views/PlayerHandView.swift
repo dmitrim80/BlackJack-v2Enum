@@ -11,48 +11,50 @@ struct PlayerHandView: View {
     @ObservedObject private var viewModel = BlackJackViewModel()
     let hand: [BlackJackCardModel]
     let hide2ndCard: Bool
-    
-    var cpuCard1: Int{
-        viewModel.engine.getScore(hand: hand, hide2ndCard: hide2ndCard)
-    }
+
     var body: some View {
         ZStack {
             // Iterate through the hand to display the cards
             ForEach(0..<hand.count, id: \.self) { index in
                 // If it's the second card and hide2ndCard is true, show it as Hidden
                 if hide2ndCard && index == 1 {
-                        if viewModel.cpuHand[0].card.value == 10 || viewModel.cpuHand[0].card.value == 1{
-                            HiddenCardView()
-                                
-                                .offset(x: CGFloat(index * 40) - 50, y: -20)
+                        if viewModel.dealerHand[0].card.value == 10 || viewModel.dealerHand[0].card.value == 1{
+                            DealCardView()
+                                .offset(x: CGFloat(index * 1), y: 0)
                                 .scaleEffect(1.2)
                                 .opacity(1)
-                                .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
+                                .rotation3DEffect(.degrees(90), axis: (x: 0, y: 1, z: 0))
                                 .onAppear {
-                                    withAnimation(.easeInOut(duration: 2)) {
+                                    //withAnimation(.easeInOut(duration: 1)) {
                                         
-                                    }}
-                        } else if viewModel.cpuHandVisibility[1] {
-                            HiddenCardView()
+                                   // }
+                            
+                        }
+                        } else if viewModel.dealerHandVisibility[1] {
+                            DealCardView()
                                 .offset(x: CGFloat(index * 40) - 50, y: 0)
                                 .scaleEffect(1.2)
                                 .opacity(1)
-                                .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
-                                .onAppear {
-                                    withAnimation(.easeInOut(duration: 2)) {
+                                .rotation3DEffect(.degrees(90), axis: (x: 0, y: 1, z: 0))
+                                .onAppear{
+                                  //  withAnimation(.easeInOut(duration: 1)) {
                                         // Add any changes here that you want to animate
-                                    }}}
+                                    //}
+                            
+                        }}
                     else {
                             // Otherwise, show the second card with CardView
                             CardView(width: 100, height: 150, card: hand[index])
-                                .offset(x: CGFloat(index * 30) - 50, y: 0)
+                                .offset(x: CGFloat(index * 40) - 50, y: 0)
                                 .scaleEffect(1.2)
                                 .opacity(1)
-                                .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                                .rotation3DEffect(.degrees(90), axis: (x: 0, y: 1, z: 0))
                                 .onAppear {
-                                    withAnimation(.easeInOut(duration: 2)) {
+                                  //  withAnimation(.easeInOut(duration: 1)) {
                                         // Add any changes here that you want to animate
-                                    }}
+                                   // }
+                        
+                    }
                         }
 
                 } else {
@@ -61,18 +63,20 @@ struct PlayerHandView: View {
                         .offset(x: CGFloat(index * 40) - 50, y: 0)
                         .scaleEffect(1.2)
                         .opacity(1)
-                        .rotation3DEffect(.degrees(1), axis: (x: 0, y: 1, z: 0))
+                        .rotation3DEffect(.degrees(0), axis: (x: 0, y: 1, z: 0))
                         .onAppear {
-                            withAnimation(.easeInOut(duration: 2)) {
+                           // withAnimation(.easeInOut(duration: 1)) {
                                 // Add any changes here that you want to animate
-                            }}
+                    //        }
+                    
+                }
                 }
             }
         }
         .onAppear {
             // Show first card hidden for 2 seconds, then flip it
             DispatchQueue.main.asyncAfter(deadline: .now() + viewModel.delayDuration) {
-                withAnimation(.easeInOut(duration: 2)) {
+                withAnimation(.easeInOut(duration: 1)) {
                     viewModel.updateCardVisibility(0, isHidden: false)
                 }
             }
@@ -80,7 +84,7 @@ struct PlayerHandView: View {
             // Show second card hidden for 2 seconds, then flip it (only if hide2ndCard is false)
             if !hide2ndCard {
                 DispatchQueue.main.asyncAfter(deadline: .now() + viewModel.delayDuration * 2) {
-                    withAnimation(.easeInOut(duration: 2)) {
+                    withAnimation(.easeInOut(duration: 1)) {
                         viewModel.updateCardVisibility(1, isHidden: false)
                     }
                 }

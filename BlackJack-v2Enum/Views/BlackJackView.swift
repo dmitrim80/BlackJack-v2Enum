@@ -20,12 +20,12 @@ struct BlackJackView: View {
                 HStack {
                     Spacer()
                     PlayerHandView(
-                        hand: viewModel.cpuHand,
+                        hand: viewModel.dealerHand,
                         hide2ndCard: viewModel.isCardHidden
                     ).scaleEffect(0.8)
                     
                     ScoreView(
-                        hand: viewModel.cpuHand,
+                        hand: viewModel.dealerHand,
                         hide2ndCard: viewModel.isCardHidden
                     )
                     .environmentObject(viewModel)
@@ -88,23 +88,23 @@ struct BlackJackView: View {
                     ChipView()
                 }
             }
-            Text("CPU Wins!\n CPU:\(viewModel.cpuHandValue)\n Player:\(viewModel.playerHandValue)")
+            Text("CPU Wins!\n CPU:\(viewModel.dealerHandValue)\n Player:\(viewModel.playerHandValue)")
                 .font(.title)
                 .fontWeight(.heavy)
                 .foregroundColor(.red)
                 .frame(width: 200, height: 120)
                 .background(.yellow)
-                .opacity($viewModel.cpuWin.wrappedValue ? 1 : 0)
+                .opacity($viewModel.dealerWin.wrappedValue ? 1 : 0)
                 .offset(y:-80)
-            Text("Player Wins!\n CPU:\(viewModel.cpuHandValue)\n Player:\(viewModel.playerHandValue)")
+            Text("Player Wins!\n CPU:\(viewModel.dealerHandValue)\n Player:\(viewModel.playerHandValue)")
                 .font(.title)
                 .fontWeight(.heavy)
-                .foregroundColor(.green)
+                .foregroundColor(Color("BJGreen"))
                 .frame(width: 200, height: 120)
                 .background(.yellow)
                 .opacity($viewModel.playerWin.wrappedValue ? 1 : 0)
                 .offset(y:-80)
-            Text("Push!\n CPU:\(viewModel.cpuHandValue)\n Player:\(viewModel.playerHandValue)")
+            Text("Push!\n CPU:\(viewModel.dealerHandValue)\n Player:\(viewModel.playerHandValue)")
                 .font(.title)
                 .fontWeight(.heavy)
                 .foregroundColor(.black)

@@ -10,7 +10,7 @@ import Foundation
 struct BlackJackEngineModel{
     indirect enum Result {
         case player(score: Int)
-        case cpu(score: Int)
+        case dealer(score: Int)
         case tie
         case previous(Result)
     }
@@ -59,15 +59,15 @@ struct BlackJackEngineModel{
         
     func getResult(
         _ playerHand: [BlackJackCardModel],
-        _ cpuHand: [BlackJackCardModel]
+        _ dealerHand: [BlackJackCardModel]
     ) -> Result{
         let playerScore = getScore(hand: playerHand, hide2ndCard: false)
-        let cpuScore = getScore(hand: cpuHand, hide2ndCard: false)
-        if playerScore == cpuScore {
+        let dealerScore = getScore(hand: dealerHand, hide2ndCard: false)
+        if playerScore == dealerScore {
             return .tie
-        }else if playerScore > cpuScore && playerScore <= 21 {
+        }else if playerScore > dealerScore && playerScore <= 21 {
             return .player(score: playerScore)
         }
-        return .cpu(score: cpuScore)
+        return .dealer(score: dealerScore)
     }
 }

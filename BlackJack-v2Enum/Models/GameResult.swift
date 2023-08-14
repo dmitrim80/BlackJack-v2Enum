@@ -9,7 +9,7 @@ import Foundation
 struct GameResult {
     let gameNumber: Int
     let playerHand: [BlackJackCardModel]
-    let cpuHand: [BlackJackCardModel]
+    let dealerHand: [BlackJackCardModel]
     let playerHandValue: Int
-    let cpuHandValue: Int
+    let dealerHandValue: Int
 }

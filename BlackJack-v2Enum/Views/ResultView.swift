@@ -11,7 +11,7 @@ struct ResultView: View {
     @ObservedObject var viewModel: BlackJackViewModel
     @Binding var isShowingResultView: Bool
     var body: some View {
-        let cpuScore = viewModel.cpuHandValue
+        let cpuScore = viewModel.dealerHandValue
         let playerScore = viewModel.playerHandValue
         ZStack{
             backgroundSet
@@ -38,7 +38,7 @@ struct ResultView: View {
                     VStack(alignment: .leading) {
                         Text("Game \(gameResult.gameNumber)")
                         Text("Player Hand: \(handToString(gameResult.playerHand)), Value: \(gameResult.playerHandValue)")
-                        Text("CPU Hand: \(handToString(gameResult.cpuHand)), Value: \(gameResult.cpuHandValue)")
+                        Text("CPU Hand: \(handToString(gameResult.dealerHand)), Value: \(gameResult.dealerHandValue)")
                     }
                 }
             }

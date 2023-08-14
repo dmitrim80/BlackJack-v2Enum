@@ -62,11 +62,13 @@ struct CardView: View {
             }
         }.frame(width: width, height: height)
             .onAppear {
-                withAnimation(.easeInOut(duration: 2)) {
-                    isFlipped.toggle()
+                DispatchQueue.main.asyncAfter(deadline: .now()) {
+                    withAnimation(.easeInOut(duration: 0.5)) {
+                        isFlipped.toggle()
+                    }
                 }
             }.rotation3DEffect(.degrees(isFlipped ? 90 : 0), axis: (x: 0, y: 1, z: 0))
-            .animation(.default)
+            
     }
 }
 struct CardView_Previews: PreviewProvider {

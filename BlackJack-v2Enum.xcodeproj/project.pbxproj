@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3336062A8405FA00779B21 /* DealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3336052A8405FA00779B21 /* DealCardView.swift */; };
 		BB50A8EA2A68477500767479 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8E92A68477400767479 /* ResultView.swift */; };
 		BB50A8EC2A69720500767479 /* PlaceYourBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8EB2A69720500767479 /* PlaceYourBetView.swift */; };
 		BB50A8EE2A69724700767479 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50A8ED2A69724700767479 /* GameView.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB3336052A8405FA00779B21 /* DealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardView.swift; sourceTree = "<group>"; };
 		BB50A8E92A68477400767479 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		BB50A8EB2A69720500767479 /* PlaceYourBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceYourBetView.swift; sourceTree = "<group>"; };
 		BB50A8ED2A69724700767479 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				BBD02D8B2A59A1F0003BB5E5 /* ScoreView.swift */,
 				BB50A9282A6D89A000767479 /* DeckView.swift */,
 				BB50A8E92A68477400767479 /* ResultView.swift */,
+				BB3336052A8405FA00779B21 /* DealCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				BBD02D8C2A59A1F0003BB5E5 /* ScoreView.swift in Sources */,
 				BB50A8EC2A69720500767479 /* PlaceYourBetView.swift in Sources */,
 				BBD02D7F2A599A11003BB5E5 /* BlackJackViewModel.swift in Sources */,
+				BB3336062A8405FA00779B21 /* DealCardView.swift in Sources */,
 				BBD02D4E2A534F8F003BB5E5 /* BlackJack_v2EnumApp.swift in Sources */,
 				BB50A8EE2A69724700767479 /* GameView.swift in Sources */,
 				BB50A8EA2A68477500767479 /* ResultView.swift in Sources */,

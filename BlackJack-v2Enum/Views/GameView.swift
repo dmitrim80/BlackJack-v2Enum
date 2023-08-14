@@ -16,12 +16,12 @@ struct GameView: View {
                 backgroundSet
                 VStack{
                     HStack{
-                        DeckView()
+                       // DeckView()
                     }.frame(maxWidth:.infinity, maxHeight:30,alignment:.topTrailing)
                     Spacer()
                     VStack(spacing:100){
                         PlayerHandView(
-                            hand: viewModel.cpuHand,
+                            hand: viewModel.dealerHand,
                             hide2ndCard: true
                         )
                         PlayerHandView(
